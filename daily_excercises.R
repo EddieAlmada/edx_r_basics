@@ -4,7 +4,7 @@ install.packages("dslabs")
 # loading the dslabs package into the R session
 library(dslabs)
 install.packages("dslabs")  # to install a single package
-install.packages(c("tidyverse", "dslabs")） # to install two packages at the same time
+install.packages(c("tidyverse", "dslabs")) # to install two packages at the same time
 installed.packages() # to see the list of all installed packages
 
 library(tidyverse)
@@ -54,7 +54,7 @@ class(z)
 # factors are another type of class
 class(murders$region)
 # obtaining the levels of a factor
-levels(murders$regi
+levels(murders$region)
 
 # We may create vectors of class numeric or character with the concatenate function
 codes <- c(380, 124, 818)
